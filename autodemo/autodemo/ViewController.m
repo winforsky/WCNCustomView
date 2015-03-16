@@ -30,6 +30,19 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.myTableView.tableHeaderView=[[WCNHeaderView alloc]initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 90)];
     
+    self.myTextField.placeholder=@"Tel";
+    
+    UIImageView *leftImageView =[[UIImageView alloc]initWithImage:[UIImage imageNamed:@"34.jpg"]];
+    leftImageView.frame=CGRectMake(0, 0, 50, 40);
+    self.myTextField.leftView=leftImageView;
+    self.myTextField.leftViewMode=UITextFieldViewModeAlways;
+    
+    UIImageView *rightImageView =[[UIImageView alloc]initWithImage:[UIImage imageNamed:@"34.jpg"]];
+    rightImageView.frame=CGRectMake(0, 0, 20, 20);
+    self.myTextField.rightView=rightImageView;
+    self.myTextField.rightViewMode=UITextFieldViewModeAlways;
+
+    
     self.myDates=@[@"http://www.xmnn.cn/pic/hdp/201503/W020150316492156390261.jpg",
                    @"http://www.xmnn.cn/2014/xwzx/jctp/201412/W020141225498684876548.png",
                    @"http://www.xmnn.cn/2014/xwzx/xmws/tw/201412/W020141228513752369895.jpg",

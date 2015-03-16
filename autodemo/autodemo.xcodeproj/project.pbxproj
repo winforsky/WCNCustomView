@@ -38,6 +38,7 @@
 		624161ED1AB6B5EB00ED054B /* WCNFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 624161EC1AB6B5EB00ED054B /* WCNFooterView.xib */; };
 		624161F01AB6B7AC00ED054B /* WCNFooterViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 624161EF1AB6B7AC00ED054B /* WCNFooterViewCell.m */; };
 		624161F31AB6B9B800ED054B /* WCNCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 624161F21AB6B9B800ED054B /* WCNCustomView.m */; };
+		624161F61AB6CE2300ED054B /* WCNTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 624161F51AB6CE2300ED054B /* WCNTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +109,8 @@
 		624161EF1AB6B7AC00ED054B /* WCNFooterViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCNFooterViewCell.m; sourceTree = "<group>"; };
 		624161F11AB6B9B800ED054B /* WCNCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCNCustomView.h; sourceTree = "<group>"; };
 		624161F21AB6B9B800ED054B /* WCNCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCNCustomView.m; sourceTree = "<group>"; };
+		624161F41AB6CE2300ED054B /* WCNTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCNTextField.h; sourceTree = "<group>"; };
+		624161F51AB6CE2300ED054B /* WCNTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCNTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +220,8 @@
 				624161EC1AB6B5EB00ED054B /* WCNFooterView.xib */,
 				624161F11AB6B9B800ED054B /* WCNCustomView.h */,
 				624161F21AB6B9B800ED054B /* WCNCustomView.m */,
+				624161F41AB6CE2300ED054B /* WCNTextField.h */,
+				624161F51AB6CE2300ED054B /* WCNTextField.m */,
 			);
 			path = CustomView;
 			sourceTree = "<group>";
@@ -365,6 +370,7 @@
 				624161E11AB6B0ED00ED054B /* UIImage+MultiFormat.m in Sources */,
 				624161DC1AB6B0ED00ED054B /* SDWebImageDownloaderOperation.m in Sources */,
 				6241618E1AB669E300ED054B /* ViewController.m in Sources */,
+				624161F61AB6CE2300ED054B /* WCNTextField.m in Sources */,
 				624161D91AB6B0ED00ED054B /* SDWebImageCompat.m in Sources */,
 				624161E41AB6B0ED00ED054B /* UIView+WebCacheOperation.m in Sources */,
 				624161E01AB6B0ED00ED054B /* UIImage+GIF.m in Sources */,
@@ -572,6 +578,7 @@
 				624161A71AB669E300ED054B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		624161A81AB669E300ED054B /* Build configuration list for PBXNativeTarget "autodemoTests" */ = {
 			isa = XCConfigurationList;
@@ -580,6 +587,7 @@
 				624161AA1AB669E300ED054B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

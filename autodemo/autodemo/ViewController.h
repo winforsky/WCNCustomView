@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WCNTextField.h"
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet WCNTextField *myTextField;
 
 @end
 

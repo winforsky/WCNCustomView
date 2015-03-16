@@ -69,8 +69,8 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="RZx-Kq-wXB" id="ep2-Kl-lJY">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d5s-6G-dgS" customClass="WCNFooterView">
-                                                    <rect key="frame" x="-21" y="0.0" width="600" height="43"/>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d5s-6G-dgS" customClass="WCNFooterView">
+                                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </view>
                                             </subviews>
@@ -91,18 +91,30 @@
                                     <outlet property="delegate" destination="vXZ-lx-hvc" id="Hi4-Rs-fSa"/>
                                 </connections>
                             </tableView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="U69-Ja-sMh" customClass="WCNTextField">
+                                <rect key="frame" x="0.0" y="275" width="600" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="49Z-n9-3H2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="U69-Ja-sMh" secondAttribute="trailing" id="4DB-o1-jRY"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="gL9-Ye-KLD" secondAttribute="bottom" id="bcK-Yv-QtG"/>
                             <constraint firstAttribute="trailing" secondItem="gL9-Ye-KLD" secondAttribute="trailing" id="fXY-qQ-HzY"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="U69-Ja-sMh" secondAttribute="bottom" constant="285" id="iQO-BJ-Min"/>
                             <constraint firstItem="gL9-Ye-KLD" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="mnT-CS-eJD"/>
+                            <constraint firstItem="U69-Ja-sMh" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="pLJ-UC-5Lh"/>
                             <constraint firstItem="gL9-Ye-KLD" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="ydo-d6-pLu"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Cgu-Jx-OED"/>
                     <connections>
                         <outlet property="myTableView" destination="gL9-Ye-KLD" id="tOC-Xy-dAa"/>
+                        <outlet property="myTextField" destination="U69-Ja-sMh" id="EdA-fI-qld"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
