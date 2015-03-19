@@ -39,6 +39,8 @@
 		624161F01AB6B7AC00ED054B /* WCNFooterViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 624161EF1AB6B7AC00ED054B /* WCNFooterViewCell.m */; };
 		624161F31AB6B9B800ED054B /* WCNCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 624161F21AB6B9B800ED054B /* WCNCustomView.m */; };
 		624161F61AB6CE2300ED054B /* WCNTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 624161F51AB6CE2300ED054B /* WCNTextField.m */; };
+		62D362381ABADAC1000745C3 /* NSDictionary+queryString.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D362351ABADAC1000745C3 /* NSDictionary+queryString.m */; };
+		62D362391ABADAC1000745C3 /* NSString+mmd5.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D362371ABADAC1000745C3 /* NSString+mmd5.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +113,10 @@
 		624161F21AB6B9B800ED054B /* WCNCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCNCustomView.m; sourceTree = "<group>"; };
 		624161F41AB6CE2300ED054B /* WCNTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCNTextField.h; sourceTree = "<group>"; };
 		624161F51AB6CE2300ED054B /* WCNTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCNTextField.m; sourceTree = "<group>"; };
+		62D362341ABADAC1000745C3 /* NSDictionary+queryString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+queryString.h"; sourceTree = "<group>"; };
+		62D362351ABADAC1000745C3 /* NSDictionary+queryString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+queryString.m"; sourceTree = "<group>"; };
+		62D362361ABADAC1000745C3 /* NSString+mmd5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+mmd5.h"; sourceTree = "<group>"; };
+		62D362371ABADAC1000745C3 /* NSString+mmd5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+mmd5.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +205,7 @@
 		624161AB1AB66AE900ED054B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				62D362331ABADAC1000745C3 /* Utils */,
 				624161B91AB6B0ED00ED054B /* SDWebImage */,
 				624161AC1AB66AE900ED054B /* CustomView */,
 				624161B61AB673D600ED054B /* WCNHeaderViewCell.h */,
@@ -260,6 +267,17 @@
 				624161D61AB6B0ED00ED054B /* UIView+WebCacheOperation.m */,
 			);
 			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		62D362331ABADAC1000745C3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				62D362341ABADAC1000745C3 /* NSDictionary+queryString.h */,
+				62D362351ABADAC1000745C3 /* NSDictionary+queryString.m */,
+				62D362361ABADAC1000745C3 /* NSString+mmd5.h */,
+				62D362371ABADAC1000745C3 /* NSString+mmd5.m */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -371,12 +389,14 @@
 				624161DC1AB6B0ED00ED054B /* SDWebImageDownloaderOperation.m in Sources */,
 				6241618E1AB669E300ED054B /* ViewController.m in Sources */,
 				624161F61AB6CE2300ED054B /* WCNTextField.m in Sources */,
+				62D362391ABADAC1000745C3 /* NSString+mmd5.m in Sources */,
 				624161D91AB6B0ED00ED054B /* SDWebImageCompat.m in Sources */,
 				624161E41AB6B0ED00ED054B /* UIView+WebCacheOperation.m in Sources */,
 				624161E01AB6B0ED00ED054B /* UIImage+GIF.m in Sources */,
 				624161DE1AB6B0ED00ED054B /* SDWebImagePrefetcher.m in Sources */,
 				6241618B1AB669E300ED054B /* AppDelegate.m in Sources */,
 				624161B11AB66B6F00ED054B /* WCNHeaderView.m in Sources */,
+				62D362381ABADAC1000745C3 /* NSDictionary+queryString.m in Sources */,
 				624161DB1AB6B0ED00ED054B /* SDWebImageDownloader.m in Sources */,
 				624161DF1AB6B0ED00ED054B /* UIButton+WebCache.m in Sources */,
 				624161881AB669E300ED054B /* main.m in Sources */,
