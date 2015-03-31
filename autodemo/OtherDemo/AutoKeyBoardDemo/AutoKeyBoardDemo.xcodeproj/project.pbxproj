@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62F496E81ACA375A000161FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F496E71ACA375A000161FA /* main.m */; };
+		62F496EB1ACA375A000161FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F496EA1ACA375A000161FA /* AppDelegate.m */; };
+		62F496EE1ACA375A000161FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F496ED1ACA375A000161FA /* ViewController.m */; };
+		62F496F11ACA375A000161FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62F496EF1ACA375A000161FA /* Main.storyboard */; };
+		62F496F31ACA375A000161FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62F496F21ACA375A000161FA /* Images.xcassets */; };
+		62F496F61ACA375A000161FA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62F496F41ACA375A000161FA /* LaunchScreen.xib */; };
+		62F497021ACA375A000161FA /* AutoKeyBoardDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F497011ACA375A000161FA /* AutoKeyBoardDemoTests.m */; };
+		62F4970D1ACA3FCF000161FA /* VCCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F4970C1ACA3FCF000161FA /* VCCell.m */; };
+		62F497111ACA438C000161FA /* DOPDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F497101ACA438C000161FA /* DOPDropDownMenu.m */; };
+		62F497151ACA43B4000161FA /* FSDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F497141ACA43B4000161FA /* FSDropDownMenu.m */; };
+		62F497171ACA46BD000161FA /* expandableImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62F497161ACA46BD000161FA /* expandableImage@2x.png */; };
+		62F4971A1ACA47D4000161FA /* WCNButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F497191ACA47D4000161FA /* WCNButton.m */; };
+		A0AB236D369D21540B33A7CF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AAF8B4E552A240947EF653F /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62F496FC1ACA375A000161FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62F496DA1ACA375A000161FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62F496E11ACA375A000161FA;
+			remoteInfo = AutoKeyBoardDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0712816BED5B5A50831755E8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		270ED1FB1646806B02C2D315 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		5AAF8B4E552A240947EF653F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F496E21ACA375A000161FA /* AutoKeyBoardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoKeyBoardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F496E61ACA375A000161FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62F496E71ACA375A000161FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		62F496E91ACA375A000161FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		62F496EA1ACA375A000161FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		62F496EC1ACA375A000161FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		62F496ED1ACA375A000161FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		62F496F01ACA375A000161FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62F496F21ACA375A000161FA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		62F496F51ACA375A000161FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		62F496FB1ACA375A000161FA /* AutoKeyBoardDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoKeyBoardDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F497001ACA375A000161FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62F497011ACA375A000161FA /* AutoKeyBoardDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoKeyBoardDemoTests.m; sourceTree = "<group>"; };
+		62F4970B1ACA3FCF000161FA /* VCCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCCell.h; sourceTree = "<group>"; };
+		62F4970C1ACA3FCF000161FA /* VCCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCCell.m; sourceTree = "<group>"; };
+		62F4970F1ACA438C000161FA /* DOPDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOPDropDownMenu.h; sourceTree = "<group>"; };
+		62F497101ACA438C000161FA /* DOPDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOPDropDownMenu.m; sourceTree = "<group>"; };
+		62F497131ACA43B4000161FA /* FSDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSDropDownMenu.h; sourceTree = "<group>"; };
+		62F497141ACA43B4000161FA /* FSDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSDropDownMenu.m; sourceTree = "<group>"; };
+		62F497161ACA46BD000161FA /* expandableImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "expandableImage@2x.png"; sourceTree = "<group>"; };
+		62F497181ACA47D4000161FA /* WCNButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCNButton.h; sourceTree = "<group>"; };
+		62F497191ACA47D4000161FA /* WCNButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCNButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62F496DF1ACA375A000161FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0AB236D369D21540B33A7CF /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F496F81ACA375A000161FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56ECD0690E159C69D1DD97E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AAF8B4E552A240947EF653F /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62F496D91ACA375A000161FA = {
+			isa = PBXGroup;
+			children = (
+				62F496E41ACA375A000161FA /* AutoKeyBoardDemo */,
+				62F496FE1ACA375A000161FA /* AutoKeyBoardDemoTests */,
+				62F496E31ACA375A000161FA /* Products */,
+				97D60EA2EFD9B2DE180E04F0 /* Pods */,
+				56ECD0690E159C69D1DD97E7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		62F496E31ACA375A000161FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62F496E21ACA375A000161FA /* AutoKeyBoardDemo.app */,
+				62F496FB1ACA375A000161FA /* AutoKeyBoardDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62F496E41ACA375A000161FA /* AutoKeyBoardDemo */ = {
+			isa = PBXGroup;
+			children = (
+				62F497181ACA47D4000161FA /* WCNButton.h */,
+				62F497191ACA47D4000161FA /* WCNButton.m */,
+				62F497121ACA43B4000161FA /* FSDropDownMenu */,
+				62F4970E1ACA438C000161FA /* DOPDropDownMenu */,
+				62F496E91ACA375A000161FA /* AppDelegate.h */,
+				62F496EA1ACA375A000161FA /* AppDelegate.m */,
+				62F496EC1ACA375A000161FA /* ViewController.h */,
+				62F496ED1ACA375A000161FA /* ViewController.m */,
+				62F496EF1ACA375A000161FA /* Main.storyboard */,
+				62F496F21ACA375A000161FA /* Images.xcassets */,
+				62F496F41ACA375A000161FA /* LaunchScreen.xib */,
+				62F496E51ACA375A000161FA /* Supporting Files */,
+				62F4970B1ACA3FCF000161FA /* VCCell.h */,
+				62F4970C1ACA3FCF000161FA /* VCCell.m */,
+			);
+			path = AutoKeyBoardDemo;
+			sourceTree = "<group>";
+		};
+		62F496E51ACA375A000161FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62F496E61ACA375A000161FA /* Info.plist */,
+				62F496E71ACA375A000161FA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62F496FE1ACA375A000161FA /* AutoKeyBoardDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				62F497011ACA375A000161FA /* AutoKeyBoardDemoTests.m */,
+				62F496FF1ACA375A000161FA /* Supporting Files */,
+			);
+			path = AutoKeyBoardDemoTests;
+			sourceTree = "<group>";
+		};
+		62F496FF1ACA375A000161FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62F497001ACA375A000161FA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62F4970E1ACA438C000161FA /* DOPDropDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				62F4970F1ACA438C000161FA /* DOPDropDownMenu.h */,
+				62F497101ACA438C000161FA /* DOPDropDownMenu.m */,
+			);
+			path = DOPDropDownMenu;
+			sourceTree = "<group>";
+		};
+		62F497121ACA43B4000161FA /* FSDropDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				62F497161ACA46BD000161FA /* expandableImage@2x.png */,
+				62F497131ACA43B4000161FA /* FSDropDownMenu.h */,
+				62F497141ACA43B4000161FA /* FSDropDownMenu.m */,
+			);
+			path = FSDropDownMenu;
+			sourceTree = "<group>";
+		};
+		97D60EA2EFD9B2DE180E04F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0712816BED5B5A50831755E8 /* Pods.debug.xcconfig */,
+				270ED1FB1646806B02C2D315 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62F496E11ACA375A000161FA /* AutoKeyBoardDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62F497051ACA375A000161FA /* Build configuration list for PBXNativeTarget "AutoKeyBoardDemo" */;
+			buildPhases = (
+				788061243458D18A8AA2AFA3 /* Check Pods Manifest.lock */,
+				62F496DE1ACA375A000161FA /* Sources */,
+				62F496DF1ACA375A000161FA /* Frameworks */,
+				62F496E01ACA375A000161FA /* Resources */,
+				CA2349226A68B80464037F7E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoKeyBoardDemo;
+			productName = AutoKeyBoardDemo;
+			productReference = 62F496E21ACA375A000161FA /* AutoKeyBoardDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62F496FA1ACA375A000161FA /* AutoKeyBoardDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62F497081ACA375A000161FA /* Build configuration list for PBXNativeTarget "AutoKeyBoardDemoTests" */;
+			buildPhases = (
+				62F496F71ACA375A000161FA /* Sources */,
+				62F496F81ACA375A000161FA /* Frameworks */,
+				62F496F91ACA375A000161FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62F496FD1ACA375A000161FA /* PBXTargetDependency */,
+			);
+			name = AutoKeyBoardDemoTests;
+			productName = AutoKeyBoardDemoTests;
+			productReference = 62F496FB1ACA375A000161FA /* AutoKeyBoardDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62F496DA1ACA375A000161FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = w.cn;
+				TargetAttributes = {
+					62F496E11ACA375A000161FA = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					62F496FA1ACA375A000161FA = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 62F496E11ACA375A000161FA;
+					};
+				};
+			};
+			buildConfigurationList = 62F496DD1ACA375A000161FA /* Build configuration list for PBXProject "AutoKeyBoardDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62F496D91ACA375A000161FA;
+			productRefGroup = 62F496E31ACA375A000161FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62F496E11ACA375A000161FA /* AutoKeyBoardDemo */,
+				62F496FA1ACA375A000161FA /* AutoKeyBoardDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62F496E01ACA375A000161FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F496F11ACA375A000161FA /* Main.storyboard in Resources */,
+				62F496F61ACA375A000161FA /* LaunchScreen.xib in Resources */,
+				62F497171ACA46BD000161FA /* expandableImage@2x.png in Resources */,
+				62F496F31ACA375A000161FA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F496F91ACA375A000161FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		788061243458D18A8AA2AFA3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CA2349226A68B80464037F7E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62F496DE1ACA375A000161FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F4970D1ACA3FCF000161FA /* VCCell.m in Sources */,
+				62F496EE1ACA375A000161FA /* ViewController.m in Sources */,
+				62F4971A1ACA47D4000161FA /* WCNButton.m in Sources */,
+				62F496EB1ACA375A000161FA /* AppDelegate.m in Sources */,
+				62F496E81ACA375A000161FA /* main.m in Sources */,
+				62F497151ACA43B4000161FA /* FSDropDownMenu.m in Sources */,
+				62F497111ACA438C000161FA /* DOPDropDownMenu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F496F71ACA375A000161FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F497021ACA375A000161FA /* AutoKeyBoardDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62F496FD1ACA375A000161FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62F496E11ACA375A000161FA /* AutoKeyBoardDemo */;
+			targetProxy = 62F496FC1ACA375A000161FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62F496EF1ACA375A000161FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62F496F01ACA375A000161FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62F496F41ACA375A000161FA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62F496F51ACA375A000161FA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62F497031ACA375A000161FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		62F497041ACA375A000161FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62F497061ACA375A000161FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0712816BED5B5A50831755E8 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AutoKeyBoardDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		62F497071ACA375A000161FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 270ED1FB1646806B02C2D315 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AutoKeyBoardDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		62F497091ACA375A000161FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AutoKeyBoardDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoKeyBoardDemo.app/AutoKeyBoardDemo";
+			};
+			name = Debug;
+		};
+		62F4970A1ACA375A000161FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AutoKeyBoardDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoKeyBoardDemo.app/AutoKeyBoardDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62F496DD1ACA375A000161FA /* Build configuration list for PBXProject "AutoKeyBoardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F497031ACA375A000161FA /* Debug */,
+				62F497041ACA375A000161FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62F497051ACA375A000161FA /* Build configuration list for PBXNativeTarget "AutoKeyBoardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F497061ACA375A000161FA /* Debug */,
+				62F497071ACA375A000161FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62F497081ACA375A000161FA /* Build configuration list for PBXNativeTarget "AutoKeyBoardDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F497091ACA375A000161FA /* Debug */,
+				62F4970A1ACA375A000161FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62F496DA1ACA375A000161FA /* Project object */;
+}
